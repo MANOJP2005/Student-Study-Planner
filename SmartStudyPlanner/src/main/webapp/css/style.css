@@ -1,0 +1,123 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Background (Login page) */
+body.login-bg {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Background (Other pages) */
+body.app-bg {
+    background: #f4f7fb;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 25px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Login box smaller */
+.login-box {
+    width: 300px;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #007bff;
+}
+
+/* Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background: #4facfe;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #e6f2ff;
+}
+
+/* Progress bar */
+.progress-container {
+    width: 50%;
+    margin: 20px auto;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 25px;
+    width: 0%;
+    background: #4caf50;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    transition: width 0.5s;
+}
+
+/* AI suggestion box */
+.ai-box {
+    background: #e6ffe6;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    color: green;
+}
+
+/* Logout button */
+.logout-btn {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Error */
+.error {
+    color: red;
+}
